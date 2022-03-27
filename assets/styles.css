@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;1,500&family=Lato:ital,wght@0,100;0,300;0,400;1,100&family=Open+Sans:wght@500&family=Oswald&family=Poppins:ital,wght@0,300;0,700;1,300&family=Roboto:ital,wght@0,100;0,300;0,500;0,700;0,900;1,100;1,300;1,500;1,700;1,900&display=swap');
+body{
+    font-family: 'Roboto' Arial, Helvetica, sans-serif;
+    background-color: #fad4d8;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.parent{
+    width: 900px;
+    height: 600px;
+    margin: 0 auto;
+    margin-top: 30px;
+    display: flex;
+
+}
+.parent2{
+    width: 300px;
+    height: 600px;
+    background-image: url('./img/background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.box{
+    width: 600px;
+    height: 600px;
+    background-color: beige;
+}
+.left{
+    margin-top: 20px;
+    margin-left: 20px;
+    color: #878282;
+    display: inline-block;
+}
+.left:hover{
+    color: black;
+}
+.left span{
+    text-transform: uppercase;
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-weight: 500;
+    margin-left: 5px;
+}
+.box2{
+    margin-top: 20px;
+    color: #878282;
+    float: right;
+    margin-right: 20px;
+}
+.box2 span:hover{
+    color: black;
+}
+.box2 span{
+    text-transform: uppercase;
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 16px;
+    margin-left: 25px;
+}
+.box2 .active{
+    color: black;
+}
+.clear{
+    clear: both;
+}
+.box3{
+    margin-top: 100px;
+    margin-left: 50px;
+    width: 500px;
+}
+.heading1{
+    position: relative;
+    font-family: 'Roboto';
+    font-size: 55px;
+    font-weight: 400;
+    color: rgb(53, 53, 53);
+}
+.heading1::after{
+    content: '';
+    position: absolute;
+    border-bottom: 3px solid rgb(53, 53, 53);
+    bottom: 30px;
+    width: 100px;
+    right: 70px;
+}
+.paragrif{
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 30px;
+    color:rgba(53,53,53) ;
+}
+.parent3{
+    width: 100%;
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+}
+.parent3 img{
+    width: 180px;
+}
+.box4{
+    font-family: 'Roboto';
+    color: rgb(53,53,53);
+    font-size: 14px;
+    margin-top: 15px;
+}
+.right{
+    margin-right: 50px;
+}
+.soz{
+    color: rgb(53, 53, 53);
+    font-family: 'Roboto';
+    font-size: 16px;
+    line-height: 40px;
+}
